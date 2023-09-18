@@ -1,0 +1,45 @@
+/* Apply a background color to the entire page */
+body {
+    background-color: rgb(48, 173, 245);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content vertically and horizontally */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the container for the button */
+.My_ProJect {
+    text-align: center;
+}
+
+/* Style the button */
+.btn {
+    font-size: 24px;
+    padding: 12px 24px;
+    background-color: #0dff00;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+.btn:hover {
+    background-color: #ff9900;
+}
+
+/* Add a subtle shadow to the button */
+.btn.big {
+    font-size: 28px;
+    padding: 18px 36px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
